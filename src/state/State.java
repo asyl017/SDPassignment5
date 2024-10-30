@@ -1,9 +1,9 @@
 package state;
 
-public interface State {
-    public void attack();
 
-    public void defend();
+public abstract class State {
+    public abstract void attack();
 
-    public void escape();
+    public abstract void defend();
 }
+
